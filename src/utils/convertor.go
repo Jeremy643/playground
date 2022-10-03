@@ -13,3 +13,10 @@ func fromStrPtr(s *string) string {
 	}
 	return *s
 }
+
+func fromIntPtr(i *int) int {
+	if i == nil {
+		return 0
+	}
+	return *i
+}
