@@ -16,4 +16,5 @@ func main() {
 	fmt.Printf("%s is %d!\n", human.GetName(), human.GetAge())
 
 	fmt.Println("1 commit")
+	fmt.Println("2 commit")
 }
