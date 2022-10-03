@@ -18,4 +18,7 @@ func main() {
 	fmt.Println("1 commit")
 	fmt.Println("2 commit")
 	fmt.Println("3 commit")
+
+	println("hllo")
+	println("wrld")
 }
