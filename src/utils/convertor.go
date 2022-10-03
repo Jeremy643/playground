@@ -6,3 +6,10 @@ func fromBoolPtr(b *bool) bool {
 	}
 	return *b
 }
+
+func fromStrPtr(s *string) string {
+	if s == nil {
+		return ""
+	}
+	return *s
+}
