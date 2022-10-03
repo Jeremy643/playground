@@ -11,4 +11,7 @@ func main() {
 
 	i := 1
 	fmt.Println(utils.FromIntPtr(&i))
+
+	human := utils.CreateHuman("John", 55)
+	fmt.Printf("%s is %d!\n", human.GetName(), human.GetAge())
 }
