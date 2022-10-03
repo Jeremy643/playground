@@ -1,20 +1,20 @@
 package utils
 
-func fromBoolPtr(b *bool) bool {
+func FromBoolPtr(b *bool) bool {
 	if b == nil {
 		return false
 	}
 	return *b
 }
 
-func fromStrPtr(s *string) string {
+func FromStrPtr(s *string) string {
 	if s == nil {
 		return ""
 	}
 	return *s
 }
 
-func fromIntPtr(i *int) int {
+func FromIntPtr(i *int) int {
 	if i == nil {
 		return 0
 	}
