@@ -15,9 +15,7 @@ func main() {
 	human := utils.CreateHuman("John", 55)
 	fmt.Printf("%s is %d!\n", human.GetName(), human.GetAge())
 
-	fmt.Println("Hello World!")
-	fmt.Println("A silly message.")
-	fmt.Println("ANother one?!")
+	messagePrinter("Hello World.")
 }
 
 func shouldStay(stay *bool) string {
