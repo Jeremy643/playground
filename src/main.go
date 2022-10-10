@@ -16,4 +16,5 @@ func main() {
 	fmt.Printf("%s is %d!\n", human.GetName(), human.GetAge())
 
 	fmt.Println("Hello World!")
+	fmt.Println("A silly message.")
 }
