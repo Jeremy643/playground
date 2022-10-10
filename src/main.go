@@ -28,3 +28,7 @@ func shouldStay(stay *bool) string {
 	}
 	return "You should not stay."
 }
+
+func messagePrinter(s string) {
+	fmt.Println(s)
+}
