@@ -17,6 +17,7 @@ func main() {
 
 	fmt.Println("Hello World!")
 	fmt.Println("A silly message.")
+	fmt.Println("ANother one?!")
 }
 
 func shouldStay(stay *bool) string {
